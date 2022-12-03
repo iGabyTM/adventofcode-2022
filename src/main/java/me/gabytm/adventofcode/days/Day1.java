@@ -1,10 +1,7 @@
 package me.gabytm.adventofcode.days;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 public class Day1 extends Day<Integer> {
 

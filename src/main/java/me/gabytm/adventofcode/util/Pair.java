@@ -22,4 +22,18 @@ public class Pair<A, B> {
         return second;
     }
 
+    public Pair<A, B> copy() {
+        return Pair.of(first(), second());
+    }
+
+    @Override
+    public String toString() {
+        return first() + ";" + second;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return first.equals(((Pair<A, B>) obj).first) && second.equals(((Pair<A, B>) obj).second);
+    }
+
 }
